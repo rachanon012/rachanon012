@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang ='en'>
+<head>
+  <meta charset = 'utf-8'>
+  <title>
+      HomePage
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <style>
+
+    .sidenav {
+      height: 100%;
+      width: 180px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color : black;
+      overflow-x: hidden;
+      padding-top: 10px;
+    }
+
+    .sidenav p {
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      display: block;
+    }
+
+    .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 15px;
+      color: gray;
+      display: block;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    .def.big2{
+      padding-bottom: 10px;
+      width:90%;
+      height: auto;
+      margin-bottom: 30px;
+      margin-left: 5%;
+      padding-top:10px;
+      margin-top: -12px;
+    }
+  </style>
+  
+</head>
+<body style="background-color:rgb(241, 241, 241);">
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Homepage.html" style="text-align: center; border: 2px solid white; padding: 5px; border-radius: 10px;">Data Visulization</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="margin-left: 10px;">
+            <a class="nav-link active" href="Homepage.html" style="color: white;">Home</a>
+          </li>
+          <li class="nav-item" style="margin-left: 10px;">
+            <a class="nav-link active" href="Overall.html" style="color: white;">Overall</a>
+          </li>
+          <li class="nav-item dropdown" style="margin-left: 10px;">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+              Platforms
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: black;">
+              <li><a class="dropdown-item" href="Facebook.html"style = 'color: white;'><img src="icons/facebook.png" style="width: 17px; height: auto; margin-left: 10px;">Facebook</a></li>
+              <li><a class="dropdown-item" href="Instagram.html"style = 'color: white;'><img src="icons/instagram.png" style="width: 17px; height: auto; margin-left: 10px;">Instagram</a></li>
+              <li><a class="dropdown-item" href="Twitter.html"style = 'color: white;'><img src="icons/twitter.png" style="width: 15px; height: auto; margin-left: 10px;">Twitter</a></li>
+              <li><a class="dropdown-item" href="Youtube.html"style = 'color: white;'><img src="icons/youtube.png" style="width: 15px; height: auto; margin-left: 10px;">Youtube</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <p class="test" style="font-family: fantasy; text-align: center; font-size: 30px; padding: 20px;"> Data Visualiztion Project Group4 </p>
+  <div>
+    <div class = "def big2" id ="def-6">
+      <p class= "content-def" style="padding-left:20px;padding-right:20px;font-size: 20px;padding-top: 20px;padding-bottom: 20px; background-color: white; border: 1px solid black; border-radius: 10px;">  &emsp;       &emsp;เว็บนี้จัดทำขึ้นเพื่อเป็น present material สำหรับการนำเสนอข้อมูลเกี่ยวกับแพลตฟอร์มโซเชียลมีเดีย (facebook 
+      instagram twitter และ youtube) ในปี 2020 ที่เก็บข้อมูลจากเหล่า influencer ทั้งหลายด้วยข้อมูลที่ได้รับจากบริษัท ไวซ์ไซท์ (ประเทศไทย) จำกัด ภายใต้โปรเจครายวิชา 2603646 Data Visualization ของภาควิชา
+      Data Science with MSc Program in Statistics คณะพาณิชยศาสตร์และการบัญชี มหาวิทยาลัยจุฬาลงกรณ์มหาวิทยาลัย</p>
+      <p class= "content-def" style="padding-left:20px;padding-right:20px;text-align: center;  font-weight: bolder; font-size : 25px;padding-top:20px">  รายชื่อผู้จัดทำ</p>
+      <p class= "content-def" style="padding-left:550px;padding-right:20px;font-size: 20px;"> 
+        1. 6480387026 กันตพงศ์ วงศ์หิรัญรัชต์</br>
+        2. 6480467526 ภานุพงศ์ จิรเศรษฐสิริ </br>
+        3. 6480475526 รัชชานนท์ จันโท</br>
+        4. 6480512026 อานนท์ พรหมจรรย์
+      </p>
+    </div>
+  </div>
+</body>
+</html>
